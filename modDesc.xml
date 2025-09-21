@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="97">
+  <author>AleFranz</author>
+  <title>
+    <en>Reverse Gear</en>
+  </title>
+  <version>1.0.0.0</version>
+
+  <description>
+    <en>
+<![CDATA[
+This mod automatically restores the last used reverse gear when switching to reverse direction, if the vehicle is in manual direction change mode and manual gear shift mode.
+]]>
+    </en>
+    <de>
+<![CDATA[
+Dieses Mod stellt automatisch den zuletzt verwendeten Rückwärtsgang wieder her, wenn in den Rückwärtsgang gewechselt wird, sofern sich das Fahrzeug im manuellen Richtungswechselmodus und im manuellen Gangwechselmodus befindet.
+]]>
+    </de>
+    <fr>
+<![CDATA[
+Ce mod restaure automatiquement le dernier rapport de marche arrière utilisé lors du passage en marche arrière, si le véhicule est en mode de changement de direction manuel et en mode de changement de rapport manuel.
+]]>
+    </fr>
+    <it>
+<![CDATA[
+Questa mod ripristina automaticamente l'ultima marcia utilizzata quando si passa alla retromarcia, se il veicolo è in modalità di cambio direzione manuale e in modalità cambio marcia manuale.
+]]>
+    </it>
+    <es>
+<![CDATA[
+Este mod restaura automáticamente la última marcha atrás utilizada al cambiar a la dirección inversa, si el vehículo está en modo de cambio de dirección manual y en modo de cambio de marcha manual.
+]]>
+    </es>
+  </description>
+
+  <iconFilename>icon_ReverseGear.dds</iconFilename>
+  <multiplayer supported="true"/>
+
+  <extraSourceFiles>
+    <sourceFile filename="ReverseGear.lua" />
+  </extraSourceFiles>
+
+</modDesc>

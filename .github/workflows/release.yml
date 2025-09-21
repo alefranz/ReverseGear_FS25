@@ -1,0 +1,19 @@
+name: Release
+on:
+  release:
+    types: [created]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - name: Create Release Zip
+        uses: thedoctor0/zip-release@0.7.5
+        with:
+          type: 'zip'
+          filename: 'FS25_ReverseGear.zip'
+          exclusions: '.git* .editorconfig README.md LICENSE *.png'
+      - name: Upload Zip to Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: ./FS25_ReverseGear.zip
