@@ -1,5 +1,9 @@
 # ReverseGear for FS25
 
+<!-- markdownlint-disable no-inline-html -->
+<img align="right" width="128" height="128" src="icon_ReverseGear.png" alt="A stylized reversed gear icon" />
+<!-- markdownlint-enable no-inline-html -->
+
 ReverseGear — stop being forced back to 1st when you reverse
 
 ReverseGear is a small Farming Simulator 25 mod that overrides the game's default behaviour of snapping your transmission back to 1st gear every time you shift into reverse. With this mod enabled you keep a sensible gear selection when you reverse so you don't have to skip through many gears to get a decent reverse speed.
