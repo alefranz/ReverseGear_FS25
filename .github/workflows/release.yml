@@ -10,11 +10,11 @@ jobs:
     steps:
       - uses: actions/checkout@v5
       - name: Create Release Zip
-        uses: thedoctor0/zip-release@0.7.5
+        uses: thedoctor0/zip-release@0.7.6
         with:
           type: 'zip'
           filename: 'FS25_ReverseGear.zip'
-          exclusions: '.git* .editorconfig README.md LICENSE *.png'
+          exclusions: '/.git* .git* .editorconfig README.md LICENSE icon_ReverseGear.png /eng/*'
       - name: Upload Zip to Release
         uses: softprops/action-gh-release@v2
         with:
