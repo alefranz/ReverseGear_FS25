@@ -1,9 +1,9 @@
 # ReverseGear for FS25
 
 <!-- markdownlint-disable no-inline-html -->
-<picture style="float: right;">
+<picture>
   <source srcset="icon_ReverseGear_dark.png" media="(prefers-color-scheme: dark)">
-  <img width="128" height="128" src="icon_ReverseGear.png" alt="A stylized reversed gear icon" />
+  <img align="right" width="128" height="128" src="icon_ReverseGear.png" alt="A stylized reversed gear icon" />
 </picture>
 <!-- markdownlint-enable no-inline-html -->
 
